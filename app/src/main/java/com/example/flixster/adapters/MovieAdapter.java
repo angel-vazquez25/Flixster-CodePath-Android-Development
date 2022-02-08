@@ -49,7 +49,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
         holder.bind(movie);
     }
 
-    // Returns the total
+    // Returns the item count total
     @Override
     public int getItemCount() {
         return movies.size();
